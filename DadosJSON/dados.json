@@ -1,0 +1,10 @@
+{
+    "produtos": 
+        [
+            {"valor": 15.95, "nome": "Lanche De Frango", "restaurante": "São Jose Lanches"},
+            {"valor": 26.75, "nome": "Lanche De Bacon", "restaurante": "Casa do Porcão"},
+            {"valor": 28.99, "nome": "Lanche De Picanha", "restaurante": "Picanha GRILL"},
+            {"valor": 25.99, "nome": "Lanche Natural ", "restaurante": "Natural da Terra"},
+            {"valor": 32.99, "nome": "Lanche De Salmão", "restaurante": "Pescada Lanches"}
+        ]
+}

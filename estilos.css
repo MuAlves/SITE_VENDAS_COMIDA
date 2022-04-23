@@ -1,0 +1,161 @@
+/*FUTURAS ALTERAÇÕES DO FUNDO DO SITE,
+ATÉ O MOMENTO ESTA COM CORPO PADRÃO,
+PODENDO SER ALTERADO O AQUIVO DE URL,
+PARA O DESEJADO*/
+.bg {
+    background-image: url(fundo/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*CONFIG H1 DO MENU*/
+h1 {
+    margin-left: 15px;
+}
+
+/*CONFIG MENU*/
+#menu {
+    text-align: center;
+    font-size: 23px;
+}
+
+/*CONFIG PRODUTOS A SER VENDIDO*/
+.produtos {
+    border-radius: 20px 20px 10px 10px;
+    border: 3px solid #000;
+    display: inline-block;
+    font-size: 18px;
+    padding: 37px;
+    margin-left: 52px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    background-color: rgba(255, 115, 0, 0.781);
+}
+
+/*CONFIG DO BOTÃO ADD*/
+.adicionar {
+    background-color: rgba(255, 0, 0, 0.712);
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*CONFIG DDOS DADOS*/
+#mostrar{
+    display: inline-flex;
+    color: wheat;
+}
+/*CONFIG DOS DADOS*/
+#lanch{
+    display: inline-flex;
+    color: wheat;
+    
+}
+.ParteSup2{
+    background-color:black;
+
+}
+
+/*CONTEUDO DAS DIVS VIA JS*/
+p {
+    font-weight: bolder;
+}
+
+/*CONTEUDO DAS DIVS VIA JS*/
+.cont {
+    border-top: 2px dashed black;
+}
+
+/*CONFIG COLUNA LATERAL ESQUERDA*/
+.lateralE {
+    width: 150px;
+    height: 590px;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid #000;
+    margin-left: 10%;
+    display: inline-flex;
+    box-shadow: 5px 5px 5px rgba(88, 88, 88, 0.815);
+    float: left;
+}
+
+/*CONFIG COLUNA LATERAL DIREITA*/
+.lateralD {
+    width: 1120px;
+    height: 550px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid #000;
+    padding: 20px;
+    Flex-direction: column;
+    margin-left: 360px;
+    margin-right: 170px;
+    box-shadow: 5px 5px 5px rgba(88, 88, 88, 0.815);
+}
+
+/*CONFIG COLUNA INFERIOR*/
+.fim {
+    width: 1353px;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    text-align: center;
+    font-family: arial;
+    box-shadow: 5px 5px 5px rgba(88, 88, 88, 0.815);
+}
+
+/*CONFIG BOTÃO LIMPAR CARRINHO*/
+.btn1 {
+    background-color: rgba(255, 123, 0, 0.356);
+    padding: 5px;
+}
+
+/*CONFIG DO FOOTER*/
+.desnv {
+    color: wheat;
+    font-size: 20px;
+    margin-left: 490px;
+    margin-right: 490px;
+    /*background-color:rgba(245, 222, 179, 0.349);*/
+    background-color: black;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+/*CONFIG SEGUNDA PAGINA*/
+.prato,
+.valor,
+.total {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.resultado {
+    padding: 20px;
+}
+
+/*CONFIG SEGUNDA PAGINA*/
+.ParteSup,
+.total,
+.resultado,.prato,.valor {
+    border: 2px dashed wheat;
+    padding: 10px;
+}
+
+/*CONFIG SEGUNDA PAGINA*/
+.prato,
+.valor {
+    display: inline-flex;
+    margin-left: 350px;
+}
+
+/*CONFIG SEGUNDA PAGINA*/
+.total {
+    text-align: center;
+    color: wheat;
+    background-color: black;
+}
+.prato,.valor{
+    color: wheat;
+}
